@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="#1066ae"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/et_masa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bordes_gg"
+        android:hint="Masa"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#64ffffff" />
+
+    <EditText
+        android:id="@+id/et_altura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bordes_gg"
+        android:hint="Altura"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textColorHint="#64ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Intruduce los datos para calcular tu IMC"
+        android:textColor="#ffffff"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bordes_gg"
+        android:text="@string/calcular"
+        android:textColor="#8cffffff"
+        android:id="@+id/btn_boton"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tu IMC es:"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffffff"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/bordes_gg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:id="@+id/tv_respuesta"
+        />
+
+</LinearLayout>
